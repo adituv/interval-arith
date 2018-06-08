@@ -1,4 +1,8 @@
-### Haskell
+*.cabal
+
+# Created by https://www.gitignore.io/api/vim,haskell
+
+### Haskell ###
 dist
 dist-*
 cabal-dev
@@ -8,47 +12,29 @@ cabal-dev
 *.chs.h
 *.dyn_o
 *.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
 *.prof
 *.aux
 *.hp
 *.eventlog
-.virtualenv
-.hsenv
-.hpc
-.cabal-sandbox/
-cabal.sandbox.config
-cabal.config
-cabal.project.local
-.ghc.environment.*
-.HTF/
-# Stack
 .stack-work/
+cabal.project.local
+.HTF/
 
-### IDE/support
-# Vim
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-v][a-z]
-[._]sw[a-p]
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
 *~
+# auto-generated tag files
 tags
 
-# IntellijIDEA
-.idea/
-.ideaHaskellLib/
-*.iml
 
-# Atom
-.haskell-ghc-mod.json
-
-# VS
-.vscode/
-
-# Emacs
-*#
-.dir-locals.el
-TAGS
-
-# other
-.DS_Store
-
+# End of https://www.gitignore.io/api/vim,haskell

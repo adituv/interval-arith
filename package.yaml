@@ -1,0 +1,17 @@
+name: interval-arith
+version: 0.0.0
+description: Checked interval arithmetic
+synopsis: Checked interval arithmetic
+github: adituv/interval-arith
+author: Iris Ward
+maintainer: aditu.venyhandottir@gmail.com
+copyright: 2018 Iris Ward
+license: BSD3
+
+dependencies:
+  - base >= 4.9 && < 5.0
+  - refined >= 0.2.0 && < 0.3.0
+
+library:
+  source-dirs:
+    - src

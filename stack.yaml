@@ -1,5 +1,8 @@
 resolver: lts-11.10
 
+extra-deps:
+- exceptions-0.10.0
+- refined-0.2.3.0
 
 
 ghc-options:
